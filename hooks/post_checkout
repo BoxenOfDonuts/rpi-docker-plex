@@ -1,6 +1,10 @@
 #!/bin/bash
 
+echo "=> Installing Packages"
+
 # Dependencies
 apt-get update \
  && apt-get upgrade \
  && apt-get install locales wget ca-certificates -y
+ 
+ echo "=> Done installing Packages"
