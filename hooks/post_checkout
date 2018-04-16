@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Dependencies
 RUN apt-get update \
  && apt-get upgrade \
