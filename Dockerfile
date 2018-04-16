@@ -1,9 +1,9 @@
 FROM resin/rpi-raspbian:jessie
 
 # Dependencies
-RUN apt-get update \
- && apt-get upgrade \
- && apt-get install locales wget ca-certificates -y
+#RUN apt-get update \
+# && apt-get upgrade \
+# && apt-get install locales wget ca-certificates -y
 
 # Setup locales
 RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
