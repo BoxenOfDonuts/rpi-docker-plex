@@ -10,7 +10,7 @@ RUN sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/g' /etc/locale.gen \
  && locale-gen
 
 # Download/extract Plex ALPINE-ARMV7
-ENV PLEX_VERSION=1.12.2.4929-29f6d1796
+ENV PLEX_VERSION=1.12.3.4973-215c28d86
 ENV PLEX_PATH=/opt/plex/Application
 
 RUN mkdir -p ${PLEX_PATH} /tmp/plex \
