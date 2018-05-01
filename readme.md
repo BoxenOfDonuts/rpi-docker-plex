@@ -7,6 +7,8 @@
 | _|      |_______||_______|/__/ \__\
 ```
 
+# Automated!
+
 # RPI Plex Docker Container
 
 ## This is built for the arm7 processor
@@ -16,9 +18,6 @@
 ```
 https://plex.tv/downloads/latest/1?channel=16&build=linux-synology-armv7&distro=synology
 ```
-
-## Caveats:
-* currently built and pushed manually from local box, would appreciate travis ci migration help
 
 ## Versions
 
