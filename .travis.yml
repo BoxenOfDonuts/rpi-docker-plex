@@ -1,0 +1,16 @@
+sudo:             required
+os:               osx
+
+language:         ruby
+
+install:
+  - curl -sLo - http://j.mp/install-travis-docker | sh -xe
+
+script:
+  - ./run 'docker build -t test . && docker run test'
+
+#before_install:
+#  - brew cask install virtualbox
+#  - brew install docker docker-machine
+#  - docker-machine create main
+#  - docker build . -t johnypony3/rpi-docker-plex:1.11.0.4666-fc63598ba --force-rm --rm

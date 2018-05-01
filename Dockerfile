@@ -1,5 +1,7 @@
 FROM resin/rpi-raspbian:jessie
 
+RUN echo $PATH
+
 # Dependencies
 RUN apt-get update \
  && apt-get upgrade \
