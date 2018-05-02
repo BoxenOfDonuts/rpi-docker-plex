@@ -7,9 +7,9 @@
 | _|      |_______||_______|/__/ \__\
 ```
 
-# Automated!
-
 # RPI Plex Docker Container
+
+# :tada: Automated! :tada:
 
 ## This is built for the arm7 processor
 
