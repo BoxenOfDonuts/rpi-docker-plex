@@ -20,7 +20,12 @@ https://plex.tv/downloads/latest/1?channel=16&build=linux-synology-armv7&distro=
 ```
 
 ## Docker hub repository
-[dockerhub][johnypony3/rpi-docker-plex]
+
+[johnypony3/rpi-docker-plex][dockerhub]
+
+## Github repository
+
+[johnypony3/rpi-docker-plex][github]
 
 ## Versions
 
@@ -28,4 +33,5 @@ https://plex.tv/downloads/latest/1?channel=16&build=linux-synology-armv7&distro=
 * 1.11.3.4803-c40bba82e
 * 1.12.3.4973-215c28d86 **(latest)**
 
-[dockehub]: https://hub.docker.com/r/johnypony3/rpi-docker-plex/
+[dockerhub]: https://hub.docker.com/r/johnypony3/rpi-docker-plex/
+[github]: https://github.com/johnypony3/rpi-docker-plex
