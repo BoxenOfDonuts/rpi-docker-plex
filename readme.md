@@ -20,7 +20,7 @@ https://plex.tv/downloads/latest/1?channel=16&build=linux-synology-armv7&distro=
 ```
 
 ## Docker hub repository
-[johnypony3/rpi-docker-plex][dockerhub]
+[dockerhub][johnypony3/rpi-docker-plex]
 
 ## Versions
 
